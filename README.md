@@ -10,13 +10,14 @@
 ## 📖 Introduction (পরিচিতি)
 
 Welcome to **Quantum Computing in Bangla (বাংলায় কোয়ান্টাম কম্পিউটিং টিউটোরিয়াল)**!  
-এই রিপোতে আপনি খুব সহজ বাংলায় শিখবেন —  
-👉 Qubit, Superposition, Entanglement  
-👉 Quantum Circuits ও Gates  
-👉 Quantum Algorithms (Deutsch-Jozsa, Grover’s, Teleportation)  
-👉 Hands-on কোডিং with **Qiskit**  
+এই রিপোতে আপনি শিখবেন **Quantum Computing & Quantum Machine Learning (QML)** বাংলায়—  
+👉 Basics of quantum mechanics and circuits  
+👉 Quantum kernel methods  
+👉 Quantum neural networks  
+👉 Quantum transformer architectures  
+👉 Practical coding examples with **Qiskit** and **Pennylane**  
 
-🚀 লক্ষ্য: বাংলাভাষী শিক্ষার্থী এবং গবেষকদের জন্য কোয়ান্টাম কম্পিউটিং শেখা সহজ করে তোলা।  
+🚀 লক্ষ্য: বাংলাভাষী শিক্ষার্থী ও গবেষকদের জন্য **QML** শেখা সহজ ও আকর্ষণীয় করা।  
 
 ⭐ **If you find this useful, please give it a STAR (উপকারে আসলে অবশ্যই একটি স্টার দিন)।**  
 
@@ -24,12 +25,37 @@ Welcome to **Quantum Computing in Bangla (বাংলায় কোয়া�
 
 ## 🗂 Table of Contents (সূচিপত্র)
 
-1. [Basics of Quantum Mechanics](tutorials/01_basics.md)  
-2. [Setup & Installation](tutorials/02_setup.md)  
-3. [Quantum Gates & Circuits](tutorials/03_gates.md)  
-4. [Quantum Algorithms](tutorials/04_algorithms.md)  
-5. [Mini Projects](tutorials/05_projects.md)  
-6. [Future of Quantum in Bangladesh](tutorials/06_future.md)  
+### 📘 Chapter 1: Brief Introduction of QML
+- Why QML matters  
+- Applications and future scope  
+
+### 📘 Chapter 2: Basics of Quantum Computing
+- From classical bits to quantum bits  
+- From digital logic circuits to quantum circuit models  
+- Quantum read-in and read-out protocols  
+- Quantum linear algebra fundamentals  
+
+### 📘 Chapter 3: Quantum Kernel Methods
+- Classical kernel machines  
+- Quantum kernel machines  
+- Theoretical foundations of quantum kernel machines  
+
+### 📘 Chapter 4: Quantum Neural Networks
+- Classical neural networks refresher  
+- Fault-tolerant quantum perceptron  
+- Near-term quantum neural networks  
+- Theoretical foundations of quantum neural networks  
+
+### 📘 Chapter 5: Quantum Transformer
+- Classical transformer overview  
+- Fault-tolerant quantum transformer design  
+
+### 💻 Code Examples
+- Implementations of different quantum data encodings  
+- SVM with quantum kernel for classification on MNIST dataset  
+- Quantum classifier for the Wine dataset  
+- Quantum GAN  
+- Quantum Transformer  
 
 ---
 
