@@ -1,9 +1,9 @@
 # 🌌 Quantum Computing in Bangla (কোয়ান্টাম কম্পিউটিং বাংলা টিউটোরিয়াল)
 
-[![GitHub stars](https://img.shields.io/github/stars/YOUR-USERNAME/quantum-computing-bangla-tutorial?style=social)](https://github.com/YOUR-USERNAME/quantum-computing-bangla-tutorial/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/YOUR-USERNAME/quantum-computing-bangla-tutorial?style=social)](https://github.com/YOUR-USERNAME/quantum-computing-bangla-tutorial/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/YOUR-USERNAME/quantum-computing-bangla-tutorial)](https://github.com/YOUR-USERNAME/quantum-computing-bangla-tutorial/issues)
-[![GitHub license](https://img.shields.io/github/license/YOUR-USERNAME/quantum-computing-bangla-tutorial)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/istiyakamin/quantum-computing-bangla-tutorial?style=social)](https://github.com/istiyakamin/quantum-computing-bangla-tutorial/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/istiyakamin/quantum-computing-bangla-tutorial?style=social)](https://github.com/istiyakamin/quantum-computing-bangla-tutorial/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/istiyakamin/quantum-computing-bangla-tutorial)](https://github.com/istiyakamin/quantum-computing-bangla-tutorial/issues)
+[![GitHub license](https://img.shields.io/github/license/istiyakamin/quantum-computing-bangla-tutorial)](LICENSE)
 
 ---
 
@@ -38,6 +38,6 @@ Welcome to **Quantum Computing in Bangla (বাংলায় কোয়া�
 Clone this repo and start learning right away:  
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/quantum-computing-bangla-tutorial.git
+git clone https://github.com/istiyakamin/quantum-computing-bangla-tutorial.git
 cd quantum-computing-bangla-tutorial
 jupyter notebook
