@@ -26,7 +26,9 @@ quantum-computing-bangla-tutorial/
 │       ├── advanced-applications/     # Advanced applications
 │       └── frameworks/                # Framework-specific examples
 └── assets/                            # Images and other resources
-```়ান্টাম কম্পিউটিং বাংলা টিউটোরিয়াল)
+```
+
+### কোয়ান্টাম কম্পিউটিং বাংলা টিউটোরিয়াল 
 
 [![GitHub stars](https://img.shields.io/github/stars/istiyakamin/quantum-computing-bangla-tutorial?style=social)](https://github.com/istiyakamin/quantum-computing-bangla-tutorial/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/istiyakamin/quantum-computing-bangla-tutorial?style=social)](https://github.com/istiyakamin/quantum-computing-bangla-tutorial/network/members)
