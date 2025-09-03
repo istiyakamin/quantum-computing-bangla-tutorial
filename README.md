@@ -31,16 +31,15 @@
 - ✅ **Real-world Projects**: Build practical quantum computing solutions
 
 ### 🔬 What You'll Learn (যা শিখবেন)
+| বিষয় | বর্ণনা |
+|-------|--------|
+| **কোয়ান্টাম মৌলিক বিষয়সমূহ** | কোয়ান্টাম মেকানিক্স, কিউবিট, সুপারপজিশন, এনট্যাংগলমেন্ট |
+| **কোয়ান্টাম সার্কিট** | গেট অপারেশন, সার্কিট ডিজাইন, মাপজোখ (measurement) প্রটোকল |
+| **কোয়ান্টাম মেশিন লার্নিং** | কার্নেল পদ্ধতি, নিউরাল নেটওয়ার্ক, অপ্টিমাইজেশন অ্যালগরিদম |
+| **প্লাস বিষয়সমূহ** | কোয়ান্টাম ট্রান্সফর্মার, জেনেরেটিভ অ্যাডভারসারিয়াল নেটওয়ার্ক (GANs), হাইব্রিড ক্লাসিকাল–কোয়ান্টাম সিস্টেম |
+| **হাতে-কলমে কোডিং** | Qiskit, PennyLane এবং Cirq-এ ব্যবহারিক বাস্তবায়ন |
 
-| Topic | Description |
-|-------|-------------|
-| 🧮 **Quantum Fundamentals** | Quantum mechanics, qubits, superposition, entanglement |
-| 🔧 **Quantum Circuits** | Gate operations, circuit design, measurement protocols |
-| 🤖 **Quantum ML** | Kernel methods, neural networks, optimization algorithms |
-| 🔮 **Advanced Topics** | Quantum transformers, GANs, and hybrid classical-quantum systems |
-| 💻 **Hands-on Coding** | Practical implementations in Qiskit, PennyLane, and Cirq |
-
----
+--- 
 
 ## 🗂️ Table of Contents (সূচিপত্র)
 
@@ -53,27 +52,6 @@
 | 📘 **05** | **Quantum Transformers** | **কোয়ান্টাম ট্রান্সফর্মার** | ✅ Ready | [📂 View](chapters/05-transformer/) |
 | 💻 **06** | **Practical Examples** | **ব্যবহারিক উদাহরণ** | ✅ Ready | [📂 View](chapters/06-code-examples/) |
 
-### 📁 Repository Structure (রিপোজিটরি কাঠামো)
-
-```
-quantum-computing-bangla-tutorial/
-├── 📄 README.md                       # Project documentation
-├── 📄 LICENSE                         # MIT License
-├── 📁 chapters/                       # Tutorial chapters
-│   ├── 📁 01-introduction/           # QML fundamentals
-│   ├── 📁 02-basics/                 # Quantum computing basics
-│   ├── 📁 03-kernel-methods/         # Kernel-based approaches
-│   ├── 📁 04-neural-networks/        # Quantum neural networks
-│   ├── 📁 05-transformer/            # Quantum transformers
-│   └── 📁 06-code-examples/          # Practical implementations
-│       ├── 📁 data-encodings/        # Encoding techniques
-│       ├── 📁 classification/        # Classification problems
-│       ├── 📁 advanced-applications/ # Advanced use cases
-│       └── 📁 frameworks/            # Framework examples
-├── 📁 assets/                        # Images, diagrams, datasets
-├── 📁 notebooks/                     # Jupyter notebooks
-└── 📁 environment/                   # Setup and dependencies
-```
 
 ---
 
@@ -81,42 +59,9 @@ quantum-computing-bangla-tutorial/
 
 ### Prerequisites (পূর্বশর্ত)
 
-- **Python 3.8+** 
-- **Basic Linear Algebra** (মৌলিক লিনিয়ার অ্যালজেব্রা)
-- **Familiarity with Machine Learning** (মেশিন লার্নিং এর সাথে পরিচিতি)
-
-### Installation (ইনস্টলেশন)
-
-```bash
-# Clone the repository
-git clone https://github.com/istiyakamin/quantum-computing-bangla-tutorial.git
-cd quantum-computing-bangla-tutorial
-
-# Create virtual environment
-python -m venv qml-env
-source qml-env/bin/activate  # On Windows: qml-env\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch Jupyter Lab
-jupyter lab
-```
-
-### Verify Installation (ইনস্টলেশন যাচাই)
-
-```python
-# Test your quantum computing environment
-import qiskit
-import pennylane as qml
-import numpy as np
-
-print("✅ Qiskit version:", qiskit.__version__)
-print("✅ PennyLane version:", qml.version())
-print("✅ Environment ready for quantum computing!")
-```
-
----
+- **Python** 
+- **Basic Linear Algebra** (হালকা পাতলা লিনিয়ার অ্যালজেব্রা)
+- **Familiarity with Machine Learning** (মেশিন লার্নিং এর খুটিনাটি)
 
 ## 📚 Learning Path (শিক্ষার পথ)
 
@@ -137,34 +82,32 @@ print("✅ Environment ready for quantum computing!")
 
 ---
 
-## 🛠️ Tools & Frameworks (টুলস ও ফ্রেমওয়ার্ক)
-
-| Framework | Description | Use Case |
-|-----------|-------------|----------|
-| **Qiskit** | IBM's quantum computing framework | Circuit design, algorithms, hardware access |
-| **PennyLane** | Quantum machine learning library | Differentiable quantum programming |
-| **Cirq** | Google's quantum computing framework | NISQ algorithms, optimization |
-| **PyTorch** | Classical ML integration | Hybrid quantum-classical models |
-
----
-
 ## 🤝 Contributing (অবদান রাখুন)
 
-We welcome contributions from the community! Here's how you can help:
+যদি মনে করেন আমরা কোন গুরুত্বপূর্ন টপিক যোগ করতে ভুলে গিয়েছি দয়া করে সেটা যোগ করতে পারেন । ছোট-বড় যেকোনো ধরনের অবদানই মূল্যবান — কন্টেন্ট, কোড, অনুবাদ বা ডকুমেন্টেশন।
 
-### Ways to Contribute
-- 📝 **Content**: Add new chapters, improve explanations, fix typos
-- 💻 **Code**: Contribute examples, fix bugs, optimize implementations
-- 🌐 **Translation**: Help improve Bengali translations
-- 🐛 **Issues**: Report bugs or suggest improvements
-- 📚 **Documentation**: Improve tutorials and guides
+### কীভাবে শুরু করবেন / How to get started
+- ✅ প্রথমে একটি Issue খুলুন — আইডিয়া বা বাগ রিপোর্ট করুন 
+- ✅ Fork করুন, একটি নতুন ব্রাঞ্চ তৈরি করুন এবং আপনার পরিবর্তন করুন:
+    - git checkout -b feature/your-feature
+    - git add .
+    - git commit -m "Short, meaningful message"
+    - git push origin feature/your-feature
+- ✅ Pull Request (PR) খুলুন এবং কাজের বর্ণনা, সংশ্লিষ্ট Issue নম্বর এবং বড় পরিবর্তনের ক্ষেত্রে স্ক্রিনশট/উদাহরণ যুক্ত করুন
 
-### Contribution Guidelines
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+### অবদানের ধরন / Types of contributions
+- 📝 কন্টেন্ট: নতুন অধ্যায় যোগ, ব্যাখ্যা বৃদ্ধি, টাইপো ঠিক করা — অনুগ্রহ করে একই স্টাইল ও ভাষা প্রচলন বজায় রাখুন  
+- 💻 কোড: উদাহরণ, বাগ ফিক্স, ইউনিট টেস্ট ও পারফরম্যান্স অপ্টিমাইজেশন — নতুন ডিপেন্ডেন্সি যোগ করলে সেটি উল্লেখ করুন  
+- 🌐 অনুবাদ: বাংলা/ইংরেজি অনুবাদে ধারাবাহিক টার্ম-লিস্ট অনুসরণ করুন (glossary)  
+- 📚 ডকুমেন্টেশন: টিউটোরিয়াল ও README উন্নত করুন — কোড স্নিপেট ও রেফারেন্স আপডেট রাখুন  
+- 🐛 ইস্যু রিপোর্ট: পরিবেশ, ধাপ, প্রত্যাশিত বনাম প্রাপ্ত ফলাফল স্পষ্টভাবে লিখুন
+
+### PR চেকলিস্ট (সংক্ষিপ্ত)
+- [ ] কোড/কন্টেন্ট লিন্টিং ও সহজ রিভিউযোগ্য বর্ণনা প্রদান করা হয়েছে  
+- [ ] প্রাসঙ্গিক টেস্ট বা উদাহরণ যোগ করা হয়েছে (কোড হলে)  
+- [ ] পুরনো/অপ্রয়োজনীয় পরিবর্তন বাদ করা হয়েছে  
+- [ ] সংশ্লিষ্ট Issue লিঙ্ক করা হয়েছে
+
 
 ---
 
@@ -184,21 +127,6 @@ We welcome contributions from the community! Here's how you can help:
 - [IBM Quantum](https://quantum-computing.ibm.com/)
 - [Google Quantum AI](https://quantumai.google/)
 - [Xanadu](https://www.xanadu.ai/)
-
----
-
-## 📞 Support & Community (সাহায্য ও কমিউনিটি)
-
-### 💬 **Get Help**
-- 🐛 [Report Issues](https://github.com/istiyakamin/quantum-computing-bangla-tutorial/issues)
-- 💡 [Feature Requests](https://github.com/istiyakamin/quantum-computing-bangla-tutorial/issues/new)
-- 📧 [Contact Author](mailto:istiyakamin@example.com)
-
-### 🌟 **Show Your Support**
-- ⭐ Give this project a star on GitHub
-- 🔄 Share with your network
-- 🐛 Report bugs and suggest improvements
-- 📝 Contribute content or code
 
 ---
 
